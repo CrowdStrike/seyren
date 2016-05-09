@@ -46,7 +46,7 @@ public class HipChatNotificationService implements NotificationService {
     @Inject
     public HipChatNotificationService(SeyrenConfig seyrenConfig) {
         this.seyrenConfig = seyrenConfig;
-        this.baseUrl = "https://api.hipchat.com";
+        this.baseUrl = seyrenConfig.getHipChatBaseUrl();// "https://api.hipchat.com";
     }
     
     protected HipChatNotificationService(SeyrenConfig seyrenConfig, String baseUrl) {
