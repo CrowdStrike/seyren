@@ -55,7 +55,7 @@
         <ch.qos.logback.version>1.1.2</ch.qos.logback.version>
         <com.fasterxml.jackson.databind.version>2.5.0</com.fasterxml.jackson.databind.version>
         <com.fasterxml.jackson.datatype.version>2.5.0</com.fasterxml.jackson.datatype.version>
-        <com.fasterxml.jackson.jaxrs.version>2.5.0</com.fasterxml.jackson.jaxrs.version>
+        <com.fasterxml.jackson.jaxrs.version>2.12.0</com.fasterxml.jackson.jaxrs.version>
         <com.github.rest-driver.version>1.1.42</com.github.rest-driver.version>
         <com.google.guava.version>18.0</com.google.guava.version>
         <com.opsgenie.integration.sdk.version>2.0.7</com.opsgenie.integration.sdk.version>
